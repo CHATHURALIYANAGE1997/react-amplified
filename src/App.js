@@ -18,7 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>nsbddhd jhedcjhdjh jhewjhc</p>
     </div>
   );
 }
