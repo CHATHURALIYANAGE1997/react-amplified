@@ -1,19 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() {  
 
   function handleClick() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://54.242.96.54');
-    xhr.onload = function() {
-      if (xhr.status === 200) {
-        console.log(xhr.response);
-      }else{
-        console.log(xhr.response);
-      }
-    };
-    xhr.send();
+   console.log("hello");
   }
 
   return (
