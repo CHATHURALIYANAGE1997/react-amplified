@@ -5,7 +5,7 @@ function App() {
 
   function handleClick() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://18.212.3.4');
+    xhr.open('GET', 'http://54.242.96.54');
     xhr.onload = function() {
       if (xhr.status === 200) {
         console.log(xhr.response);
